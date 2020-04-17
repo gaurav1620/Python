@@ -5,20 +5,6 @@ import bs4
 import requests
 from bs4 import BeautifulSoup
 
-# print("This program is created by : ")
-# print("   ______ ")
-# print("  / ____/___ ___  ___________ __   __")
-# print(" / / __/ __ `/ / / / ___/ __ `/ | / /")
-# print("/ /_/ / /_/ / /_/ / /  / /_/ /| |/ / ")
-# print("\____/\__,_/\__,_/_/   \__,_/ |___/ ")
-# print("")
-# print("    __ __ __          _                      ")
-# print("   / //_// /_  ____ _(_)________  ____ ______")
-# print("  / ,<  / __ \/ __ `/ / ___/ __ \/ __ `/ ___/")
-# print(" / /| |/ / / / /_/ / / /  / / / / /_/ / /   ")
-# print("/_/ |_/_/ /_/\__,_/_/_/  /_/ /_/\__,_/_/     ")
-# print("")
-
 usrname = input("Enter the usename : ")
 linkInput = 'https://github.com/'+usrname+'?tab=repositories'
 r = requests.get(linkInput)
